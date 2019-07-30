@@ -1,13 +1,19 @@
 import React from 'react';
+import Person from './Person';
 
-function Participants() {
+function Participants(props) {
+  const list = props.participants.map(person => {
     return (
-      
-        <div className='participants'>
-          
-        </div>
-     
+      <Person
+        key={person.id}
+        avatar={person.avatar}
+        name={person.name}
+        inSession={person.inSession}
+        onStage={person.onStage}
+      />
     );
-  }
-  
-  export default Participants;
+  });
+  return <div className="participants">{list}</div>;
+}
+
+export default Participants;
