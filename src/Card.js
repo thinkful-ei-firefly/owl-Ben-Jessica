@@ -1,11 +1,12 @@
 import React from 'react';
+import './card.css';
 
 function Card(props) {
     return (
       
         <div id={props.id} className='card'>
-            <p>{props.name}</p>
-            <img src={props.avatar} alt='icon' />
+            <p className='stageName'>{props.name}</p>
+            <img src={props.avatar} className='stageIcon' alt='stage icon' />
           
         </div>
      

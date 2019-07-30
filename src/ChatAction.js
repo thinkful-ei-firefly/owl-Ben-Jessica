@@ -1,4 +1,5 @@
 import React from 'react';
+import './chatItem.css';
 
 function ChatAction(props) {
   let action;
@@ -39,9 +40,9 @@ function ChatAction(props) {
   }
 
   return (
-    <div id={props.id} className="chatBar">
-      <span className="personName">{props.name}</span>
-      <span className="action">{action}</span>
+    <div id={props.id} className="chatItem">
+      <span className="personName">{props.name} </span>
+      <span className="action">{action} </span>
       <span>{icon}</span>
     </div>
   );

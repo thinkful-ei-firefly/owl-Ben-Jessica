@@ -14,9 +14,9 @@ function App() {
           {/* <Participants participants={part} /> */}
           <ChatBar participants={part} chatEvents={chat} />
         </div>
-        <div className="stage">
+        
         <Stage participants={part} />
-        </div>
+        
       </div>
     </main>
   );

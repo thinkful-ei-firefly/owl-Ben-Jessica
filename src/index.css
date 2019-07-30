@@ -14,16 +14,13 @@ code {
 
 .sidebar {
   display: inline-block;
-  height: 500px%;
+  height: 500px;
   width: 25%;
-  background-color: lightgray;
+  background-color: white;
   border: 1px solid black;
 }
 
-.stage {
-  display: inline-block;
-  height: 500px;
-  width: 70%;
-  background-color: gray;
-  border: 1px solid black;
+.window {
+  display: flex;
+  width: 100%;
 }

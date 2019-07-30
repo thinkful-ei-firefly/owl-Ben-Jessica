@@ -26,7 +26,7 @@ function ChatBar(props) {
     }
   });
 
-  return <div className="participants">{list}</div>;
+  return <div className="chatBar">{list}</div>;
 }
 
 export default ChatBar;
