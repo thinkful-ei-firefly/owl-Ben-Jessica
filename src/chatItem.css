@@ -11,3 +11,9 @@
 span {
     line-height: 24px;
 }
+
+.chatIcon {
+    width: 40px;
+    margin: 5px;
+    
+}
