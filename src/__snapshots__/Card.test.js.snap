@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card component renders the UI as expected 1`] = `"<Card id=1 name=\\"Test name\\" avatar=\\"https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1\\" />"`;
+
+exports[`Card component renders the UI as expected with no unreads 1`] = `"<Card id=1 name=\\"Test name\\" avatar=\\"https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1\\" />"`;

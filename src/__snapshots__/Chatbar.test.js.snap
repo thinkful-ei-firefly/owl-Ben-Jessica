@@ -1,0 +1,353 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ChatBar component renders the UI as expected 1`] = `
+<div
+  className="chatBar"
+>
+  <div
+    className="chatItem"
+  >
+    <img
+      alt="icon"
+      className="chatIcon"
+      src="https://robohash.org/utlaborumfugit.jpg?size=200x200&set=set1"
+    />
+    <span
+      className="personName"
+    >
+      Axe Kubicka
+       
+    </span>
+    <span
+      className="time"
+    >
+      7
+      :
+      48
+    </span>
+    <p>
+      Hello world
+    </p>
+  </div>
+  <div
+    className="chatItem"
+  >
+    <span
+      className="personName"
+    >
+      Caty Flucker
+       
+    </span>
+    <span
+      className="action"
+    >
+      gave a thumbs up
+       
+    </span>
+    <span>
+      [thumbs up icon]
+    </span>
+  </div>
+  <div
+    className="chatItem"
+  >
+    <span
+      className="personName"
+    >
+      Frank Runciman
+       
+    </span>
+    <span
+      className="action"
+    >
+      gave a thumbs down
+       
+    </span>
+    <span>
+      [thumbs down icon]
+    </span>
+  </div>
+  <div
+    className="chatItem"
+  >
+    <span
+      className="personName"
+    >
+      Koren Templeton
+       
+    </span>
+    <span
+      className="action"
+    >
+      raised their hand
+       
+    </span>
+    <span>
+      [hand icon]
+    </span>
+  </div>
+  <div
+    className="chatItem"
+  >
+    <span
+      className="personName"
+    >
+      Koren Templeton
+       
+    </span>
+    <span
+      className="action"
+    >
+      clapped
+       
+    </span>
+    <span>
+      [clap icon]
+    </span>
+  </div>
+  <div
+    className="chatItem"
+  >
+    <span
+      className="personName"
+    >
+      Koren Templeton
+       
+    </span>
+    <span
+      className="action"
+    >
+      joined
+       
+    </span>
+    <span />
+  </div>
+  <div
+    className="chatItem"
+  >
+    <span
+      className="personName"
+    >
+      Ashla Attwool
+       
+    </span>
+    <span
+      className="action"
+    >
+      left
+       
+    </span>
+    <span />
+  </div>
+  <div
+    className="chatItem"
+  >
+    <span
+      className="personName"
+    >
+      Axe Kubicka
+       
+    </span>
+    <span
+      className="action"
+    >
+      joined the stage
+       
+    </span>
+    <span />
+  </div>
+  <div
+    className="chatItem"
+  >
+    <span
+      className="personName"
+    >
+      Axe Kubicka
+       
+    </span>
+    <span
+      className="action"
+    >
+      left the stage
+       
+    </span>
+    <span />
+  </div>
+</div>
+`;
+
+exports[`ChatBar component renders the UI as expected with no unreads 1`] = `
+<div
+  className="chatBar"
+>
+  <div
+    className="chatItem"
+  >
+    <img
+      alt="icon"
+      className="chatIcon"
+      src="https://robohash.org/utlaborumfugit.jpg?size=200x200&set=set1"
+    />
+    <span
+      className="personName"
+    >
+      Axe Kubicka
+       
+    </span>
+    <span
+      className="time"
+    >
+      7
+      :
+      48
+    </span>
+    <p>
+      Hello world
+    </p>
+  </div>
+  <div
+    className="chatItem"
+  >
+    <span
+      className="personName"
+    >
+      Caty Flucker
+       
+    </span>
+    <span
+      className="action"
+    >
+      gave a thumbs up
+       
+    </span>
+    <span>
+      [thumbs up icon]
+    </span>
+  </div>
+  <div
+    className="chatItem"
+  >
+    <span
+      className="personName"
+    >
+      Frank Runciman
+       
+    </span>
+    <span
+      className="action"
+    >
+      gave a thumbs down
+       
+    </span>
+    <span>
+      [thumbs down icon]
+    </span>
+  </div>
+  <div
+    className="chatItem"
+  >
+    <span
+      className="personName"
+    >
+      Koren Templeton
+       
+    </span>
+    <span
+      className="action"
+    >
+      raised their hand
+       
+    </span>
+    <span>
+      [hand icon]
+    </span>
+  </div>
+  <div
+    className="chatItem"
+  >
+    <span
+      className="personName"
+    >
+      Koren Templeton
+       
+    </span>
+    <span
+      className="action"
+    >
+      clapped
+       
+    </span>
+    <span>
+      [clap icon]
+    </span>
+  </div>
+  <div
+    className="chatItem"
+  >
+    <span
+      className="personName"
+    >
+      Koren Templeton
+       
+    </span>
+    <span
+      className="action"
+    >
+      joined
+       
+    </span>
+    <span />
+  </div>
+  <div
+    className="chatItem"
+  >
+    <span
+      className="personName"
+    >
+      Ashla Attwool
+       
+    </span>
+    <span
+      className="action"
+    >
+      left
+       
+    </span>
+    <span />
+  </div>
+  <div
+    className="chatItem"
+  >
+    <span
+      className="personName"
+    >
+      Axe Kubicka
+       
+    </span>
+    <span
+      className="action"
+    >
+      joined the stage
+       
+    </span>
+    <span />
+  </div>
+  <div
+    className="chatItem"
+  >
+    <span
+      className="personName"
+    >
+      Axe Kubicka
+       
+    </span>
+    <span
+      className="action"
+    >
+      left the stage
+       
+    </span>
+    <span />
+  </div>
+</div>
+`;
