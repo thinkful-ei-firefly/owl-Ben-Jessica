@@ -15,7 +15,7 @@ code {
 .sidebar {
   display: inline-block;
   height: 500px;
-  width: 25%;
+  padding: 15px;
   background-color: white;
   border: 1px solid black;
 }

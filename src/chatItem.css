@@ -5,6 +5,9 @@
 }
 
 .personName {
-    
     font-weight: 200%
+}
+
+span {
+    line-height: 24px;
 }
