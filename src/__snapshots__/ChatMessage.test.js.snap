@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Stage /> renders this UI as expected 1`] = `
+<div
+  className="chatItem"
+>
+  <img
+    alt="icon"
+    className="chatIcon"
+    src="https://robohash.org/utlaborumfugit.jpg?size=200x200&set=set1"
+  />
+  <span
+    className="personName"
+  >
+    Axe Kubicka
+     
+  </span>
+  <span
+    className="time"
+  >
+    7
+    :
+    48
+  </span>
+  <p>
+    Hello world
+  </p>
+</div>
+`;

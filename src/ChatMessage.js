@@ -2,7 +2,7 @@ import React from 'react';
 import './chatItem.css';
 
 function ChatMessage(props) {
-  console.log(props);
+  
   const time = new Date(props.time);
   const hours = time.getHours();
   const minutes = time.getMinutes();
